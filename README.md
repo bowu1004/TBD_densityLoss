@@ -14,9 +14,9 @@ The center loss function guides the latent features towards the categorical cent
 Please run the main python file in each directory. More details regarding input arguments can be found within each main file.
 
 ## Results
-We visualize the center of gravity and largest/smallest density learning process below.
+I visualized the center of gravity and largest/smallest density learning process below.
 
-Softmax only. Left: training set.
+Softmax only. Left: training set. (by KaiyangZhou)
 <div align="center">
   <img src="train_DensityLoss_shown_densityMax_0602/softmax_train.gif" alt="train" width="30%">
 </div>
