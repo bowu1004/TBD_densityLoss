@@ -9,11 +9,12 @@ The center loss function guides the latent features towards the categorical cent
 + [x] With cross-entropy loss, the samples that is further away from other categories give larger output possibilities.
 + [x] The centers learned by the center loss function seems to be the centers of gravity of each class.
 + [x] The centers learned by the center loss function are NOT the samples that give the largest prediction possibilities.
++ [x] Classes surrounded by other classes have smaller prediction possibilities, at least before the middle training stage.
 
 ## Get started
 Please run the main python file in each directory. More details regarding input arguments can be found within each main file.
 
-## Results
+## 2D Results
 I visualized the center of gravity and largest/smallest density learning process below.
 
 Softmax only. Left: training set. (by KaiyangZhou)
@@ -29,5 +30,11 @@ Softmax + CenterLoss (on training set only). (.gif file was generated via `https
   <img src="train_DensityLoss_shown_densityMin_0602/center_and_densityMin.gif" alt="train" width="30%">
 </div>
 
+## 3D Result
++ [x] 3D plot: (2d)features + prediction probability as the z-axis.
+<div align="center">
+  <img src="train_DensityLoss_3D_plot_0603/fea_and_probability_as_3d.gif" alt="train" width="30%">
+</div>
+
 ## To-do
-+ [ ] 3D plot: features + prediction probability as the z-axis.
++ [ ] Two centers correlate with each other.
