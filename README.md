@@ -28,3 +28,6 @@ Softmax + center loss(training set only).
   <img src="train_DensityLoss_shown_densityMax_0602/centers_and_densityMax.gif" alt="train" width="30%">
   <img src="train_DensityLoss_shown_densityMin_0602/center_and_densityMin.gif" alt="train" width="30%">
 </div>
+
+## To-do
++ [ ] 3D plot: features + prediction probability as the z-axis.
