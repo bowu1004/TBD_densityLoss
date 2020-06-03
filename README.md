@@ -21,7 +21,7 @@ Softmax only. Left: training set. (by KaiyangZhou)
   <img src="train_DensityLoss_shown_densityMax_0602/softmax_train.gif" alt="train" width="30%">
 </div>
 
-Softmax + center loss(training set only).
+Softmax + CenterLoss (on training set only). (.gif file was generated via `https://ezgif.com/maker`)
   + Left: White dots represent the learned centers of gravity, and the black dots represent the samples that render the `largest` prediction possibilities within each category.
   + Right: White dots represent the learned centers of gravity, and the black dots represent the samples that render the `smallest` prediction possibilities within each category.
 <div align="center">
